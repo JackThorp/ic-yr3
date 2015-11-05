@@ -1,0 +1,10 @@
+gl_Vertex in shader specifies the objects coordinates (coordinates of vertex in local model which
+is specific to each object). 
+
+All objects are trandformed into common coordinate system - the  view space. Conceptually first to
+world coordinate system and then to view space. In practise these are combined into one transformation,
+the model-view transformation)
+
+Hence, gl_ModelViewMatrix which performs the model-view transformation.
+
+
